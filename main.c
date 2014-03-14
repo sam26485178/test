@@ -5,6 +5,7 @@
 #define PAGE_TABLE_LEN (VMEM_REGION_SIZE >> PAGESHIFT)
 #define	PAGE_TABLE_SIZE		(PAGE_TABLE_LEN * sizeof(struct pte))
 #define PROT_ALL (PROT_READ|PROT_WRITE|PROT_EXEC)
+//add another commetn
 // add a comment
 struct pte {
     unsigned int pfn	: 20;	/* page frame number */
